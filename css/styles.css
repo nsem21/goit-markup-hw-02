@@ -142,9 +142,9 @@ address{
     letter-spacing: var(--space-measure);
 }
 .button{
-    background-color: var(--accent-color);
+    background-color: #F5F4FA;
 
-    color: var(--first-color);
+    color: var(--second-color);
 
     font-weight: 400;
     font-size: 16px;
@@ -152,6 +152,12 @@ address{
 
     text-align: center;
     letter-spacing: var(--space-measure);
+}
+.button:hover,
+.button:focus{
+    background-color: var(--accent-color);
+
+    color: var(--first-color);
 }
 .works a{
     text-decoration: none;
