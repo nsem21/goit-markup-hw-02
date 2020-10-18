@@ -36,11 +36,14 @@ ul{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-
+/*first для тукущей страницы*/
 .site-nav-link:hover,
 .site-nav-link:focus,
 .contact:hover,
-.contact:focus{
+.contact:focus,
+.first,
+.under-contact:hover,
+.under-contact:focus {
     color: var(--accent-color);
 }
 
