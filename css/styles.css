@@ -37,11 +37,11 @@ ul{
     letter-spacing: 0.02em;
 }
 /*first для тукущей страницы*/
+.first,
 .site-nav-link:hover,
 .site-nav-link:focus,
 .contact:hover,
 .contact:focus,
-.first,
 .under-contact:hover,
 .under-contact:focus {
     color: var(--accent-color);
